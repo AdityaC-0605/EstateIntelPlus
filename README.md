@@ -35,7 +35,6 @@ An advanced real estate price prediction system for Mumbai properties, built usi
 1. Clone the repository
 ```bash
 git clone https://github.com/AdityaC-0605/EstateIntelPlus.git
-cd Project-Real-Estate-Price-Prediction
 ```
 
 
