@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 
 def generate_trend_data(df):
     # Simulate historical data based on current prices
-    dates = pd.date_range(end=datetime.now(), periods=12, freq='M')
+    dates = pd.date_range(end=datetime.now(), periods=12, freq='ME')
     trends = {}
     
     for region in df['Region'].unique():
